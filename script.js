@@ -35,5 +35,3 @@ function program(arr1, arr2, arr3) {
     let randomMessage = message(arr1, arr2, arr3);
     printMessage(randomMessage);
 }
-
-program(subjects, verbs, objects);
