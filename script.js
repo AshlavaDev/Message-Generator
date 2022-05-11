@@ -25,7 +25,15 @@ function printMessage(message) {
     console.log(message);
 }
 
-//Test loop
+/*Test loop
 for (let i = 0; i <= 4; i++) {
     printMessage(message(subjects, verbs, objects));
+}*/
+
+
+function program(arr1, arr2, arr3) {
+    let randomMessage = message(arr1, arr2, arr3);
+    printMessage(randomMessage);
 }
+
+program(subjects, verbs, objects);
