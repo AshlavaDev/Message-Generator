@@ -15,17 +15,17 @@ function getElement(arr) {
 
 
 //The function that creates the message
-function message() {
-
+function message(arr1, arr2, arr3) {
+    return `${getElement(arr1)} ${getElement(arr2)} ${getElement(arr3)}.`;
 }
 
 
-
+//Print function
 function printMessage(message) {
     console.log(message);
 }
 
-
-
-//printMessage(getElement(subjects));
-
+//Test loop
+for (let i = 0; i <= 4; i++) {
+    printMessage(message(subjects, verbs, objects));
+}
