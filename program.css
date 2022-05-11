@@ -1,5 +1,13 @@
-#page_title {
+body {
+    
+}
 
+#actual_program {
+    text-align: center;
+}
+
+#page_title {
+    font-size: 3em;
 }
 
 #does_thing {
@@ -7,5 +15,5 @@
 }
 
 #message{
-    
+    font-size: 2em;
 }
