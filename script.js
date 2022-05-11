@@ -33,5 +33,8 @@ for (let i = 0; i <= 4; i++) {
 
 function program(arr1, arr2, arr3) {
     let randomMessage = message(arr1, arr2, arr3);
-    printMessage(randomMessage);
+    //Old print function to print to console
+    //printMessage(randomMessage);
+    document.getElementById("message").innerText = randomMessage;
 }
+
